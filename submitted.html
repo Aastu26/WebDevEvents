@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <h3>Details that you entered :</h3>
+        <ul>
+            <li>
+                First name: 
+                <span id="fname">null</span> 
+            </li>
+            <li>
+                Last name: 
+                <span id="lname">null</span> 
+            </li>
+            <li>
+                Email: 
+                <span id="email">null</span> 
+            </li>
+            <li>
+                Contact Details: 
+                <span id="contact">null</span> 
+            </li>
+            <li>
+                Address: 
+                <span id="address">null</span> 
+            </li>
+            <li>
+                Interested in learning : 
+                <span id="course">null</span> 
+            </li>
+        </ul>
+    </div>
+    <script>
+        var fname = localStorage.getItem("fname");
+        var lname = localStorage.getItem("lname");
+        var email = localStorage.getItem("email");
+        var address = localStorage.getItem("address");
+        var contact = localStorage.getItem("contact");
+        var course = localStorage.getItem("course");
+        
+        document.getElementById("fname").innerHTML = fname;
+        document.getElementById("lname").innerHTML = lname;
+        document.getElementById("email").innerHTML = email;
+        document.getElementById("address").innerHTML = address;
+        document.getElementById("contact").innerHTML = contact;
+        document.getElementById("course").innerHTML = course;
+        
+        localStorage.clear();
+    </script>
+
+    
+</body>
+</html>

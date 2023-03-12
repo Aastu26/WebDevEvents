@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.box{
+    width:600px;
+    height:580px;
+    background-color: #ffffffd6;
+    margin:auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2)
+}
+.box .header{
+    background-color:rgba(128, 128, 128, 0.344);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box .header p{
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+    color:black;
+}
+form{
+    display: flexbox;
+    width:540px;
+    height:auto;
+    margin:auto;
+    padding:5px;
+}
+.row{
+    padding:8px;
+    margin-top: 7px;
+}
+.row .col-2{
+    text-align: center;
+}
+.row .col-4 input{
+    background-color:rgba(128, 128, 128, 0.253);
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width: 160px;
+}
+.row .col-8 input{
+    background-color:rgba(128, 128, 128, 0.253);
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:385px;
+}
+.row .col-3 input{
+    background-color:rgba(128, 128, 128, 0.253);
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:100px;
+}
+.row .col-5 input{
+    background-color:rgba(128, 128, 128, 0.253);
+    border:none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    width:247px;
+}
+.row .col-6 p{
+    text-align: center;
+}
+.row .col-6 input{
+    margin-left: 20px;
+}
+.row .col-6 button{
+    margin-top: 30px;
+    margin-left: 175px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
